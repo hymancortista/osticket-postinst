@@ -29,26 +29,43 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h2>Lifecycle Stages</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Configure Roles (for grouping permissions)<br />
+Admin Panel -> Agents -> Roles<br />
+- Supreme Admin
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Configure Departments (Ticket Visibility, Help Desk vs SysAdmins, vs Networking)<br />
+Admin Panel -> Agents -> Departments<br />
+- SysAdmins
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Configure Teams<br />
+Admin Panel -> Agents -> Teams (Pull Agents from different Departments)<br />
+- Online Banking
+
+Allow anyone to create tickets<br />
+Admin Panel -> Settings -> User Settings (UNCHECK: unregistered users can create tickets)<br />
+- Registration Required: Require registration and login to create tickets 
+
+Configure Agents (workers)<br />
+Admin Panel -> Agents -> Add New<br />
+- Jane (Dept: SysAdmins)
+- John (Dept: Support)
+
+Configure Users (customers)<br />
+Agent Panel -> Users -> Add New<br />
+- Karen
+- Ken
+
+Configure SLA<br />
+Admin Panel -> Manage -> SLA<br />
+- Sev-A (Grace Period: 1 hour, Schedule: 24/7)
+- Sev-B (Grace Period: 4 hours, Schedule: 24/7)
+- Sev-C (Grace Period: 8 hours, Business Hours)
+
+Configure Help Topics (For when users create a ticket)<br />
+Admin Panel -> Manage -> Help Topics<br />
+- Business Critical Outage
+- Personal Computer Issues
+- Equipment Request
+- Password Reset
+- Other
+
