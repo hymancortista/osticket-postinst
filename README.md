@@ -56,16 +56,25 @@ Admin Panel -> Agents -> Add New<br />
 - Jane (Dept: SysAdmins)
 - John (Dept: Support)
 
+![image](https://github.com/user-attachments/assets/6da590c5-3a46-47d8-b14f-e6ae5175d9d2)
+
+
 Configure Users (customers)<br />
 Agent Panel -> Users -> Add New<br />
 - Karen
 - Ken
+
+![image](https://github.com/user-attachments/assets/de38f8d9-efaf-41b4-960a-57474e9405f6)
+
 
 Configure SLA<br />
 Admin Panel -> Manage -> SLA<br />
 - Sev-A (Grace Period: 1 hour, Schedule: 24/7)
 - Sev-B (Grace Period: 4 hours, Schedule: 24/7)
 - Sev-C (Grace Period: 8 hours, Business Hours)
+
+![image](https://github.com/user-attachments/assets/563f43e4-5619-4894-8045-9d0f855d4996)
+
 
 Configure Help Topics (For when users create a ticket)<br />
 Admin Panel -> Manage -> Help Topics<br />
