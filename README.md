@@ -27,17 +27,29 @@ Configure Roles (for grouping permissions)<br />
 Admin Panel -> Agents -> Roles<br />
 - Supreme Admin
 
+![image](https://github.com/user-attachments/assets/70bfd30f-40e3-4a33-b1b2-f668249f7b66)
+
+
 Configure Departments (Ticket Visibility, Help Desk vs SysAdmins, vs Networking)<br />
 Admin Panel -> Agents -> Departments<br />
 - SysAdmins
+
+![image](https://github.com/user-attachments/assets/d92f20bc-2342-415d-b072-73579e9d2086)
+
 
 Configure Teams<br />
 Admin Panel -> Agents -> Teams (Pull Agents from different Departments)<br />
 - Online Banking
 
+![image](https://github.com/user-attachments/assets/f0ae051f-8cde-4561-bf0d-185ffe22bb12)
+
+
 Allow anyone to create tickets<br />
 Admin Panel -> Settings -> User Settings (UNCHECK: unregistered users can create tickets)<br />
 - Registration Required: Require registration and login to create tickets 
+
+![image](https://github.com/user-attachments/assets/9e0108e9-d18b-4cd7-bec8-8ab979ce9b7b)
+
 
 Configure Agents (workers)<br />
 Admin Panel -> Agents -> Add New<br />
