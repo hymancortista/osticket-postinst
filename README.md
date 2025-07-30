@@ -85,3 +85,5 @@ Admin Panel -> Manage -> Help Topics<br />
 - Other
 
 ![image](https://github.com/user-attachments/assets/aa985b4f-c5d2-4127-ae0d-e33150ca1611)
+
+Now on to working on Tickets and their Ticket Lifecycle
