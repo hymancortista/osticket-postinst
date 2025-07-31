@@ -14,13 +14,6 @@ This tutorial outlines what to do after installing osTicket and how to configure
 
 - Windows 10</b> (21H2)
 
-<h2>Ticket Lifecycle Stages</h2>
-
-- Intake
-- Assignment and Communication
-- Working the Issue
-- Resolution
-
 <h2>Lifecycle Stages</h2>
 
 Configure Roles (for grouping permissions)<br />
